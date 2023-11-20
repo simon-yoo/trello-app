@@ -7,3 +7,5 @@ const MarketingLayout = ({ children }: { children: React.ReactNode }) => {
     </div>
   )
 }
+
+export default MarketingLayout
