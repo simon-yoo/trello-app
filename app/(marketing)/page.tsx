@@ -9,7 +9,7 @@ const MarketingPage = () => {
           No 1 task managment
         </div>
         <h1 className='text-3xl md:text-6xl text-center text-neutral-800 mb-6'>
-          Taskify helps team move
+          DOIT helps team move
         </h1>
         <div></div>
       </div>
