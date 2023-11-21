@@ -12,7 +12,7 @@ const OrgControl = () => {
     if (!setActive) return
 
     setActive({
-      organization: params.organizationoId as string,
+      organization: params.organizationId as string,
     })
   }, [setActive, params.organizationId])
   return null
