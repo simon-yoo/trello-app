@@ -5,7 +5,6 @@ const OrganizationIdLayout = ({ children }: { children: React.ReactNode }) => {
     <>
       <OrgControl />
       {children}
-      {/*  */}
     </>
   )
 }
