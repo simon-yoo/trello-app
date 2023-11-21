@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
 import { Accordion } from '@/components/ui/accordion'
-import NavItem from './NavItem'
+import NavItem, { Organization } from './NavItem'
 interface SidebarProps {
   storageKey?: string
 }
@@ -80,7 +80,7 @@ const Sidebar = ({ storageKey = 't-sidebar-state' }: SidebarProps) => {
             key={organization.id}
             isActive={activeOrganization?.id === organization.id}
             isExpanded={expanded[organization.id]}
-            organization={organization}
+            organization={organization as Organization}
             onExpand={onExpand}
           />
         ))}
