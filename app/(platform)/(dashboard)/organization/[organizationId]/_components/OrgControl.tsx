@@ -1,5 +1,12 @@
+'use client'
+
+import { useParams } from 'next/navigation'
+
 const OrgControl = () => {
-  return <div>orgControl</div>
+  const params = useParams()
+  const {}
+  return
+  null
 }
 
 export default OrgControl
