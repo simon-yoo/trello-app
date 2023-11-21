@@ -15,8 +15,7 @@ const OrgControl = () => {
       organization: params.organizationoId as string,
     })
   }, [setActive, params.organizationId])
-  return
-  null
+  return null
 }
 
 export default OrgControl
